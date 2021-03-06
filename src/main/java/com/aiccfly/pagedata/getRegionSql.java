@@ -25,10 +25,11 @@ public class getRegionSql {
                 e.printStackTrace();
             }
         }
-
+//test--test
 //        String url = "http://www.mca.gov.cn/article/sj/xzqh/2019/201901-06/201904301706.html";
 //        String url = "http://www.mca.gov.cn//article/sj/xzqh/2020/202006/202008310601.shtml";
         String url = "http://files2.mca.gov.cn/cws/201307/20130711193420826.htm";
+
         int count = 0;//记录条数
 //获取链接中的数据
         Document doc = Jsoup.connect(url)
