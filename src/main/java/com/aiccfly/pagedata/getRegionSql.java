@@ -38,6 +38,7 @@ public class getRegionSql {
                 .maxBodySize(0)
                 .timeout(100000)
                 .get();
+        System.out.printf("Test");
 //获取表格
         Elements trs = doc.select("tr");
 
